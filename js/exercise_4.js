@@ -11,7 +11,7 @@ var accessToken = 'pk.eyJ1IjoiYmFydG9uaiIsImEiOiJjaW5nMno2OXkxYjZpdjhrcW55ZjRiZm
 // Create the map object with your mapId and token, 
 // referencing the DOM element where you want the map to go.
 L.mapbox.accessToken = accessToken;
-var map = databaseToAdd ='data'/parks.goejson';
+var  dataFileToAdd ='data/parks.geojson';
 var featureLayer=L.mapbox.featureLayer()
 featureLayer.loadURL(dataFileToAdd);
 featureLayer.addTo(map);
