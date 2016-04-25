@@ -5,7 +5,7 @@
 var mapId = 'will-breitkreutz.k6fj4l3f';
 
 // And this is my access token, use yours.
-var accessToken = 'pk.eyJ1IjoiYmx1ZW9uZXMiLCJhIjoiY2luZzVlaXB3MWQ2ZHYwa3FoM2w4ZWNrbyJ9.Em0qp43MWVa8JdOGz0nDwA
+var accessToken = 'pk.eyJ1Ijoid2lsbC1icmVpdGtyZXV0eiIsImEiOiItMTJGWEF3In0.HEvuRMMVxBVR5-oDYvudxw
 ';
 
 // Create the map object with your mapId and token,
