@@ -11,14 +11,14 @@ var accessToken = 'pk.eyJ1IjoiYmFydG9uaiIsImEiOiJjaW5nMno2OXkxYjZpdjhrcW55ZjRiZm
 // Create the map object with your mapId and token, 
 // referencing the DOM element where you want the map to go.
 L.mapbox.accessToken = accessToken;
-var  dataFileToAdd ='data/parks.geojson';
-var featureLayer=L.mapbox.featureLayer()
+var dataFileToAdd ='data/parks.geojson';
+var featureLayer=L.mapbox.featureLayer();
 featureLayer.loadURL(dataFileToAdd);
 featureLayer.addTo(map);
 featureLayer.on('ready',function(){
   this.setStyle({
-  "color";"#6583bf",
-  "fillcolor":"6583bf",
+  "color":"#6583bf",
+  "fillColor":"6583bf",
   "weight":.5,
   "opacity":0.65,
 })
