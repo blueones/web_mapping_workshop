@@ -5,8 +5,7 @@
 var mapId = 'will-breitkreutz.k6fj4l3f';
 
 // And this is my access token, use yours.
-var accessToken = 'pk.eyJ1Ijoid2lsbC1icmVpdGtyZXV0eiIsImEiOiItMTJGWEF3In0.HEvuRMMVxBVR5-oDYvudxw
-';
+var accessToken = 'pk.eyJ1Ijoid2lsbC1icmVpdGtyZXV0eiIsImEiOiItMTJGWEF3In0.HEvuRMMVxBVR5-oDYvudxw';
 
 // Create the map object with your mapId and token,
 // referencing the DOM element where you want the map to go.
