@@ -7,7 +7,8 @@ var mapId =
 
 
 // And this is my access token, use yours.
-var accessToken = "pk.eyJ1IjoiYmFydG9uaiIsImEiOiJjaW5nMTRzZ2QxYWhldWZsd3NpamR5bXFjIn0"
+var accessToken = 
+"pk.eyJ1IjoiYmFydG9uaiIsImEiOiJjaW5nMTRzZ2QxYWhldWZsd3NpamR5bXFjIn0.DFu0Xd9OENjbKgJvshDBcg"
 
 // Create the map object with your mapId and token, 
 // referencing the DOM element where you want the map to go.
