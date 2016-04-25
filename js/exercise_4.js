@@ -15,9 +15,10 @@ var map = databaseToAdd ='data'/parks.goejson';
 var featureLayer=L.mapbox.featureLayer()
 featureLayer.loadURL(dataFileToAdd);
 featureLayer.addTo(map);
-featureLayer.on('ready',function(){this.setS({
-  "color";#6583bf"'
-  "fillcolor":"6583bf'
+featureLayer.on('ready',function(){
+  this.setStyle({
+  "color";"#6583bf",
+  "fillcolor":"6583bf",
   "weight":.5,
   "opacity":0.65,
 })
