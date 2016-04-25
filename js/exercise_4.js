@@ -32,11 +32,39 @@ featureLayer.on('ready', function() {
     });
     map.fitBounds(featureLayer.getBounds());
 });
-featureLayer.on('ready',function(){
+/*featureLayer.on('ready',function(){
   this.eachLayer(function(layer){
     layer.bindPopup('welcome to' +layer.feature.properties.LABEL);
   })
+})*/
+
+var clickHandler =function(e){
+  $('#info').empty();
+  var feature=e.target.feature;
+  $('#info').fadeIn(400,function(){
+    
+    var info= '';
+    info +='<div>',
+    info +=      '<h2>'+feature.properties.LABEL+'</h2>';
+    info+=		'<h2>' +feature.properties.LOCATION+'</P>';
+    info+='</div>';
+    $('#info').append(info);
+    
+    
+    
+  })
+
+}
+featureLayer.on('ready',function(){
+this.eachLayer(function.(layer){
+               layer.on('click',clickHandler);
 })
-               
-               
-              
+
+})
+
+map.on('click',function(){
+  $('#info').fadeOut(200);
+  $('#info').empty();
+
+})
+
