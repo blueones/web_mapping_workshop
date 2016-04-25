@@ -26,7 +26,4 @@ map.fitBounds(featureLayer.getBounds());
     })
   
 
-// Set the initial view of the map to the whole US
-map.setView([39, -96], 4);
-
 // Great, now we have a basic web map!
