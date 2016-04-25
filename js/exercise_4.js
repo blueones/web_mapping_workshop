@@ -6,7 +6,7 @@ var mapId = 'bartonj.pp97f9mf';
 
 
 // And this is my access token, use yours.
-var accessToken = 'pk.eyJ1IjoiYmFydG9uaiIsImEiOiJjaW5nMTRzZ2QxYWhldWZsd3NpamR5bXFjIn0.DFu0Xd9OENjbKgJvshDBcg';
+var accessToken = 'pk.eyJ1IjoiYmFydG9uaiIsImEiOiJjaW5nMno2OXkxYjZpdjhrcW55ZjRiZmtwIn0.1zoT87L8Uh9aRd2aMbOT6Q';
 
 // Create the map object with your mapId and token, 
 // referencing the DOM element where you want the map to go.
