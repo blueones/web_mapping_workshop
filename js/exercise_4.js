@@ -11,7 +11,19 @@ var accessToken = 'pk.eyJ1IjoiYmFydG9uaiIsImEiOiJjaW5nMno2OXkxYjZpdjhrcW55ZjRiZm
 // Create the map object with your mapId and token, 
 // referencing the DOM element where you want the map to go.
 L.mapbox.accessToken = accessToken;
-var map = L.mapbox.map('map', mapId);
+var map = databasetoadd ='data'/parks.goejson';
+var featurelayer=L.mapbox.featureLayer()
+featurelayer.loadURL(dataFileToAdd);
+featurelayer.addTo(map);
+featurelayer.on('ready',function(){this.setS({
+  "color";#6583bf"'
+  "fillcolor":"6583bf'
+  "weight":.5,
+  "opacity":0.65,
+})
+map.fitBounds(featureLayer.getBounds());
+    })
+  
 
 // Set the initial view of the map to the whole US
 map.setView([39, -96], 4);
