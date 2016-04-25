@@ -2,7 +2,8 @@
 
 // Enter your mapbox map id here to reference it for the base layer,
 // this one references the ugly green map that I made.
-var mapId = "pp97f9mfbreitkreutz.k6fj4l3f';"
+var mapId = 
+bartonj.pp97f9mf"pp97f9mfbreitkreutz.k6fj4l3f';"
 
 // And this is my access token, use yours.
 var accessToken = "pk.eyJ1IjoiYmFydG9uaiIsImEiOiJjaW5nMTRzZ2QxYWhldWZsd3NpamR5bXFjIn0"
