@@ -46,7 +46,7 @@ var clickHandler =function(e){
     var info= '';
     info +='<div>',
     info +=      '<h2>'+feature.properties.LABEL+'</h2>';
-    info+=		'<h2>' +feature.properties.LOCATION+'</P>';
+    info+=		'<p>' +feature.properties.LOCATION+'</P>';
     info+='</div>';
     $('#info').append(info);
     
